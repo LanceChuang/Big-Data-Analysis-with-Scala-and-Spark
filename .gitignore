@@ -8,3 +8,4 @@ wikipedia/target/scala-2.11/classes/wikipedia/wikipedia.dat
 target/
 stackoverflow/
 .idea/
+.DS_Store
