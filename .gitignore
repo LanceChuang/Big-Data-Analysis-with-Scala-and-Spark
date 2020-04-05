@@ -1,3 +1,10 @@
 wikipedia/src/main/resources/wikipedia/wikipedia.dat
 wikipedia/target
 wikipedia/target/scala-2.11/classes/wikipedia/wikipedia.dat
+### Scala template
+*.class
+*.log
+
+target/
+stackoverflow/
+.idea/
