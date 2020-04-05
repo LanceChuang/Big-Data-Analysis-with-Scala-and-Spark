@@ -1,3 +1,5 @@
+import sbt.project
+
 name := course.value + "-" + assignment.value
 
 scalaVersion := "2.11.12"
