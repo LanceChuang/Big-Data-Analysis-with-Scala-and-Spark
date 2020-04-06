@@ -7,6 +7,5 @@ wikipedia/target/scala-2.11/classes/wikipedia/wikipedia.dat
 *.log
 
 target/
-stackoverflow/
 .idea/
 .DS_Store
