@@ -2,6 +2,9 @@ wikipedia/src/main/resources/wikipedia/wikipedia.dat
 wikipedia/target
 wikipedia/project/target/
 wikipedia/target/scala-2.11/classes/wikipedia/wikipedia.dat
+stackoverflow/src/main/resources/stackoverflow/stackoverflow.csv
+stackoverflow/target/
+stackoverflow/project/target
 ### Scala template
 *.class
 *.log
