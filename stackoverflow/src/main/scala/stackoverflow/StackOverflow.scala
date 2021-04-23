@@ -295,7 +295,7 @@ class StackOverflow extends StackOverflowInterface with Serializable {
   //
   def clusterResults(means: Array[(Int, Int)], vectors: RDD[(LangIndex, HighScore)]): Array[(String, Double, Int, Int)] = {
     val closest = vectors.map(p => (findClosest(p, means), p))
-    val closestGrouped = closest.groupByKey()
+    val closestGrouped = closest.groupByKey() // [(c1, [p1, p2...]), (c2, [p1, p3...])]
 
     val median = closestGrouped.mapValues { vs =>
       val langIndex: Int      = vs.groupBy(_._1).mapValues(x => x.size).maxBy(x => x._2)._1 // maxBy to find max value in pair RDD
